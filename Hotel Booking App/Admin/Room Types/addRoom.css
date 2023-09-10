@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #EDF6F9;
+    font-family: "PT Sans";
+    color: #012A4A;
+}
+
+h1{
+   text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.question{
+    margin-bottom: 30px;
+}
+
+h3 {
+    background-color: #012A4A;
+    color: #EDF6F9;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px 25px 0px 0px ;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: white;
+    padding: 50px;
+    margin: 0 auto;
+    align-items: center;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.addRemoveImg{
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=number] {
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #EDF6F9;
+}
+
+input[type="radio"] {
+    height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    accent-color: darkred;
+    width: 25px;
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+
+label {
+    font-size: 17px;
+}
+
+
+.edit {
+    background-color: #012A4A;
+    color: #EDF6F9;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.edit:hover{
+    background-color: #01497C;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.insertPic {
+    border: none;
+    background-color: #FFB600;
+
+}
+
+.addAndSave {
+    background-color: #012A4A;
+    color: #EDF6F9;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.addAndSave:hover{
+    background-color: #01497C;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.warning {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #012A4A;
+    font-size: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body {
+    background-color: #EDF6F9;
+    font-family: "PT Sans";
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    color: #012A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email],
+input[type=number]
+{
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #EDF6F9;
+}
+
+button {
+    background-color: #012A4A;
+    color: #ffffff;
+    padding: 16px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #01497C;
+    transition: 1s;
+}
+
+.button {
+    background-color: #012A4A;
+    color: #ffffff;
+    padding: 16px;
+    margin: 0 px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #01497C;
+    transition: 1s;
+}
+
+.buttonHref {
+    text-decoration: none;
+    color: darkred;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box {
+    margin-top: 80px;
+}
+
+.container {
+    padding: 16px;
+}
+
+.error-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stars{
+    margin-top: 22px;
+}
+
+input[type="radio"] {
+    height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    accent-color: darkred;
+    width: 25px;
+}
+
+.warning{
+    background-color: white;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.goToRooms {
+    color: darkred;
+    text-decoration: none;
+    margin: 10px 0px 20px 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+
+}
+
+
+

@@ -1,0 +1,97 @@
+.body{
+    margin: 0;
+}
+
+.calendar {
+    max-width: 400px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0 0px;
+    border-radius: 15px;
+    border: 3px dotted #012A4A;
+    color: #012A4A;
+}
+
+.month-year {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+thead, tbody {
+    width: 100%;
+}
+
+p.month-year {
+    padding: 0;
+}
+
+.month-year a {
+    text-decoration: none;
+    color: #01497C;
+    transition: color 0.3s ease;
+}
+
+.month-year a:hover {
+    color: #012A4A;
+}
+
+.calendar-table {
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 1.5rem;
+}
+
+.calendar-table th,
+.calendar-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar-table th {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.calendar-table td {
+    border: 1px solid #ccc;
+}
+
+.calendar-table td:hover {
+    background-color: #EAF3FF;
+    cursor: pointer;
+}
+
+.calendar-table tr:hover td:not(:hover) {
+    background-color: initial;
+}
+
+.calendar-table td:first-child,
+.calendar-table td:last-child {
+    background-color: #f7f7f7;
+    color: #012A4A;
+}
+
+.calendar-table td:not(:empty) {
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 100%;
+}
+
+.calendar {
+    overflow: hidden;
+}
+
+.calendar + .calendar {
+    width: 400px;
+    overflow-y: scroll;
+    max-height: calc(31.3rem - 40px); /* Subtract the height of the tooltip */
+}

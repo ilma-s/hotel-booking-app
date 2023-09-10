@@ -1,0 +1,35 @@
+
+h1{
+    font-size: 35px;
+}
+
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-row label {
+    margin-right: 10px;
+}
+
+.booking {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #EDF6F9;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.comment {
+    margin-top: 25px;
+}
+
+.button2 {
+    width: 60%;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #EDF6F9;
+    width: 1350px;
+    margin: 0 auto;
+    color: #012A4A;
+}
+
+.SignRegisterButton{
+    background-color: #EDF6F9;
+    margin: 10px 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: #798A8F;
+    cursor: pointer;
+}
+
+
+.description{
+    background-color: white;
+    margin: 0px 0px 30px 0px;
+    padding: 25px 50px 50px 50px ;
+    border-radius: 25px;
+    color: #012A4A;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.hotelName {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #012A4A;
+    display: flex;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.fas{
+    color: #FFB600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.far {
+    color: #FFB600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.fa-solid{
+    color: #FFB600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.fa-snowflake,.fa-mountain, .fa-snowflake, .fa-temperature-high. .fa-sink {
+    color: #012A4A;
+}
+
+
+.RoomsTitle{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #01497C;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 100px;
+}
+
+.rooms {
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.RoomName {
+    background-color: lightgrey;
+    color: #012A4A;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    border: 2px solid #012A4A;
+    margin-bottom: 15px;
+}
+
+.beds\&price{
+    padding: 20px 15px 20px 15px;
+    font-size: 17px;
+    border-radius: 25px;
+}
+
+.features{
+    margin-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.featuresFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
+}
+.buttonSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bookButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 50px 15px 51px;
+    text-decoration: none;
+    color: #EDF6F9;
+    background-color: #012A4A;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.bookButton:hover {
+    background-color: cornflowerblue;
+}
+
+a{
+    text-decoration: none;
+}
+.room{
+    display: flex;
+    flex-direction: row;
+}
+
+.roomInformation{
+margin-left: 20px;
+}
+img{
+    width: 15%;
+    border-radius: 25px;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem grey);
+}
+
+
+

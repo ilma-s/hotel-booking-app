@@ -1,0 +1,117 @@
+
+body{
+    font-family: "PT Sans";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDF6F9;
+    font-weight: lighter;
+}
+
+.warning {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #012A4A;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Container styles */
+.container {
+    width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+/* Heading styles */
+h1 {
+    color: #012A4A;
+    padding: 0px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+}
+
+/* Message styles */
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.changePass {
+    color: darkred;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.error-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    text-align: left;
+}
+
+.alignment{
+    text-align: left;
+}
+
+.updateProfile {
+    background-color: #012A4A;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.updateProfile:hover {
+    background-color: #01497C;
+    transition: 1s;
+}
+
+
+.background {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 170px;
+}

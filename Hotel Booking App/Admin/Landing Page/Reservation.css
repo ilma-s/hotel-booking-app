@@ -1,0 +1,45 @@
+.reservationForm{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #EAF3FF;
+    padding: 20px 38px 20px 38px;
+    width: 50%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.1);
+    border: 3px dotted #012A4A;
+}
+
+
+.button{
+    color: #EDF6F9;
+    background-color: #01497C;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.button:hover{
+    transition: 1s;
+    background-color: #012A4A;
+    cursor: pointer;
+}
+
+label{
+    margin-right: 18px;
+}
+
+#timePeriod{
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #01497C;
+    color: white;
+    border-radius: 8px;
+    margin-left: 15px;
+}

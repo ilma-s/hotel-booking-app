@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+
+.wrapper {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+.shade{
+    filter: drop-shadow(0.5rem 0.5rem 3rem #012A4A);
+}
+
+.mainImage{
+    width: 100%;
+    height: 75%;
+    margin: 30px 0px 0px 0px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    /*filter: drop-shadow(0.5rem 0.5rem 3rem #012A4A); */
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.firstTitle{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.secondTitle {
+    font-size: 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="date"], input[type="number"]{
+    /* margin: 0px 30px;
+     padding: 40px 0px;*/
+    cursor: pointer;
+    border: none;
+    border-right: 1px solid #012A4A;
+    background-color: #EDF6F9;
+}
+
+input[type="text"]{
+    padding: 30px;
+}
+
+input[type="date"]{
+    padding: 30px;
+}
+
+input[type="number"]{
+    padding: 30px;
+}
+
+.searchImg{
+    weight: 40px;
+    height: 40px;
+}
+
+.buttonForm {
+    border: none;
+    border-radius: 75px;
+    padding: 15px 20px;
+    background-color: #012A4A;
+    color: white;
+    margin-left: 30px;
+}
+
+.buttonForm:hover {
+    background-color: #01497C;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.bottom {
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    background-color: #EDF6F9;
+    border-radius: 25px;
+    padding: 30px 0px;
+    opacity: 0.95;
+    /* filter: drop-shadow(.5rem 0.5rem 5rem #012A4A); */
+}
+
+article div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    cursor: pointer;
+}
+
+.thirdTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 175px 0px 40px 0px;
+    color: #012A4A;
+    text-align: center;
+}
+
+.pictureText{
+    color: #012A4A;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pictureText:hover{
+    transition: 1s;
+    transition-duration: 1s;
+    background-color:#EDF6F9;
+    box-shadow: 0px 0px 20px #012A4A;
+}
+
+section:hover{
+    cursor: pointer;
+}
+
+.placeImages {
+    width: 100%;
+    height: 85%;
+    border-radius: 15px 15px 0px 0px;
+    padding-bottom: 10px;
+}
+
+.vignette {
+    position: relative;
+    display: inline-block;
+}
+
+.vignette > .placeImages{
+    display: block;
+}
+
+.vignette::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.6);
+}
+
+.fas {
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
